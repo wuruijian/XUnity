@@ -55,14 +55,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\bloom\Scripts\PartBloom.cs" />
      <Compile Include="Assets\my_scripts\GameUtil.cs" />
      <Compile Include="Assets\my_scripts\Main.cs" />
      <Compile Include="Assets\myShadow\CameraForward.cs" />
      <Compile Include="Assets\myShadow\ShadowScript.cs" />
      <None Include="Assets\my_shaders\SurfaceShader1.shader" />
+     <None Include="Assets\bloom\Shader\Opaque\OpaqueShader.shader" />
+     <None Include="Assets\bloom\Shader\BloomEffect.shader" />
      <None Include="Assets\my_shaders\FixedFuntionShader2.shader" />
      <None Include="Assets\my_shaders\AlphaShader.shader" />
      <None Include="Assets\my_shaders\UvAnimationShader.shader" />
+     <None Include="Assets\bloom\Shader\Effect\Effect-Particle-Mobile-Alpha.shader" />
      <None Include="Assets\my_shaders\FixedFuntionShader1.shader" />
      <None Include="Assets\my_shaders\textureEtcAlpha_twoD.shader" />
      <None Include="Assets\myShadow\TransparentShadow.shader" />
@@ -72,6 +76,7 @@
      <None Include="Assets\myShadow\Projector2.shader" />
      <None Include="Assets\my_shaders\DiffuseShader.shader" />
      <None Include="Assets\myShadow\Projector.shader" />
+     <None Include="Assets\bloom\Shader\Effect\Effect-Particle-Mobile-Add.shader" />
      <None Include="Assets\my_shaders\OutLineShader.shader" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/jim/Documents/GitHub/XUnity/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
